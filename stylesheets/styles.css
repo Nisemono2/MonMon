@@ -63,6 +63,13 @@ h1 {
   margin-left: 1.5em;
 }
 
+#header-icon {
+  width: 20%;
+  float: right;
+  margin-right: 10vw;
+  margin-top: 5vw;
+}
+
 /* Home 1st article */
 #main-logo {
   margin-left: auto;

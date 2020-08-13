@@ -1,0 +1,115 @@
+/* General */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #effcef;
+}
+
+/* Variables */
+/* Nav */
+.nav-container {
+  background: #94d3ac;
+  height: 50px;
+  overflow: hidden;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.nav-item {
+  list-style-type: none;
+  display: block;
+  font-family: "Source Sans Pro", sans-serif;
+  float: right;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 17px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #CCEDD2;
+}
+
+#nav-home-icon {
+  width: 20px;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 5px;
+}
+
+/* Header */
+#jumbotron-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: -webkit-gradient(linear, left top, left bottom, from(#effcef), to(#CCEDD2));
+  background: linear-gradient(#effcef, #CCEDD2);
+}
+
+h1 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 100px;
+  margin-left: 0.5em;
+  margin-top: 1.5em;
+}
+
+.header-subtext {
+  font-style: "Source Sans Pro", sans-serif;
+  font-size: 35px;
+  margin-left: 1.5em;
+}
+
+/* Home 1st article */
+#main-logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 10vh;
+}
+
+h3 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 55px;
+  text-align: center;
+}
+
+.article-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+.emoji-center {
+  text-align: center;
+  font-size: 100px;
+}
+
+.article-text-center {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 30px;
+  margin-top: 1.5em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  text-align: center;
+}
+
+/* Footer */
+.footer-container {
+  width: 100vw;
+  height: 10vh;
+  background-color: #655C56;
+}
+
+.footer-text {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #CCEDD2;
+  padding-top: 3vh;
+}
+/*# sourceMappingURL=styles.css.map */

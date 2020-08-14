@@ -9,7 +9,7 @@ body {
 /* Nav */
 .nav-container {
   background: #94d3ac;
-  height: 50px;
+  height: 55px;
   overflow: hidden;
   position: -webkit-sticky;
   position: sticky;
@@ -27,7 +27,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: black;
 }
 
 a:hover {
@@ -35,7 +35,7 @@ a:hover {
 }
 
 #nav-home-icon {
-  width: 20px;
+  width: 23px;
   margin-top: 0;
   padding-top: 0;
   margin-bottom: 5px;
@@ -44,7 +44,7 @@ a:hover {
 /* Header */
 #jumbotron-container {
   width: 100vw;
-  height: 100vh;
+  height: 95vh;
   overflow: hidden;
   background: -webkit-gradient(linear, left top, left bottom, from(#effcef), to(#CCEDD2));
   background: linear-gradient(#effcef, #CCEDD2);
@@ -67,7 +67,7 @@ h1 {
   width: 20%;
   float: right;
   margin-right: 10vw;
-  margin-top: 5vw;
+  margin-top: 25px;
 }
 
 /* Home 1st article */
@@ -110,6 +110,9 @@ h3 {
   width: 100vw;
   height: 10vh;
   background-color: #655C56;
+  position: -webkit-sticky;
+  position: sticky;
+  margin-top: 200px;
 }
 
 .footer-text {
@@ -118,5 +121,36 @@ h3 {
   text-align: center;
   color: #CCEDD2;
   padding-top: 3vh;
+}
+
+/* About Page ***************************************************************************/
+.about-header-text {
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 0;
+}
+
+#about-header-logo {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15vh;
+}
+
+.sidebar-container {
+  width: 100vw;
+  height: 50vh;
+}
+
+.sidebar-text {
+  font-family: "Source Sans Pro", sans-serif;
+  color: black;
+  list-style-type: none;
+  font-size: 35px;
+  text-align: center;
+  margin-left: 5vw;
+  margin-bottom: 20px;
+  margin-right: 10vw;
 }
 /*# sourceMappingURL=styles.css.map */

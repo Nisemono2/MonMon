@@ -169,4 +169,13 @@ Module 1
   text-align: center;
   margin-top: 5vh;
 }
+
+.module-objectives {
+  display: block;
+  text-align: center;
+  margin-bottom: 1em;
+  margin-left: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+}
 /*# sourceMappingURL=styles.css.map */
